@@ -1,0 +1,29 @@
+{
+  "name": "sbmm",
+  "version": "0.0.1",
+  "description": "A node express backend of skill based matchmaking system",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FanghanHu/SBMM.git"
+  },
+  "keywords": [
+    "sbmm"
+  ],
+  "author": "Fanghan Hu",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/FanghanHu/SBMM/issues"
+  },
+  "homepage": "https://github.com/FanghanHu/SBMM#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
